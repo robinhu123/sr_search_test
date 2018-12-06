@@ -1,0 +1,14 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+$primary-button-color: #FFEE00;
+$font-size_sml:0.8rem;
+$link_style: underline;
+.footer_content {
+  font: 100% $font-stack;
+  color: $primary-color;
+  font-size: $font-size_sml;
+  font-decoration: $link_style;
+}
+.btn_primary_button {
+  background-color: $primary-button-color;
+}
